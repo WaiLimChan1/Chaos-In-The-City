@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e6e6a139dcc9e439f2a05e1bf93489, type: 3}
+  m_Name: Four Way Intersection
+  m_EditorClassIdentifier: 
+  tileSprite: {fileID: 1430164077, guid: 09ab3b90153c2944b8b20995799b3ad6, type: 3}
+  tileMapTile: {fileID: 11400000, guid: 392d71e1664d0674d8790a0e070095de, type: 2}
+  tileSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  tileType: 4
+  NorthConnectionType: 5
+  EastConnectionType: 5
+  SouthConnectionType: 5
+  WestConnectionType: 5
+  NorthEnd: {fileID: 11400000, guid: 7d857b3b2a2e79a4b902fe80714a0699, type: 2}
+  EastEnd: {fileID: 11400000, guid: 1d0347de390e3144788935c5face214d, type: 2}
+  SouthEnd: {fileID: 11400000, guid: e5a235a1162edc34cbb9d615d2bf5cf2, type: 2}
+  WestEnd: {fileID: 11400000, guid: 0c0f8e291358b7946ae96b0dce226919, type: 2}

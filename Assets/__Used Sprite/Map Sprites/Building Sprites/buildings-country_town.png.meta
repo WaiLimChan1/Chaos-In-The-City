@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 5f4581922c8d8404d936fa5f22f3af35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 7.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buildings-country_town_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 80
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f351f178bcb845a690f2402efe76d
+      internalID: 641547796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1903
+        width: 80
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93eb213dc01528489f487191cf80e52
+      internalID: -58266361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1881
+        width: 112
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17198619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966adf012f8a484da4993e2a662d04e
+      internalID: -1799154371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1723
+        width: 80
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16707748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb8ad60f8db1ae4fbf8ff53d03abe49
+      internalID: -1518736849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1724
+        width: 80
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16503437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0cc652b6f75d54fa6db4c2520c2b67
+      internalID: -1390862204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1717
+        width: 80
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1691198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470fc6eadbaec294d8b8c33b7d0352ed
+      internalID: 1609303615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1722
+        width: 80
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16503514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c398e54581ff84daa0d9587e922fab
+      internalID: 1106879874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1640
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1893402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46142876fed5db049a08091e56c4393e
+      internalID: -1098978565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1533
+        width: 112
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19483797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a38e466298f214292cd3c849daa489
+      internalID: 1381557147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1632
+        width: 128
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18137512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbd5ffd356361748ae91883887706ab
+      internalID: -1472994706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528
+        width: 112
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25026724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc040010928985343a1e145ddf792e87
+      internalID: -1235136300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1516
+        width: 118
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26253408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df81aecf8341af4f978af9d29ebcda3
+      internalID: -500816285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1542
+        width: 96
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21284391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3ab4030387de4458b48027fae08143
+      internalID: -1882319490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1384
+        width: 96
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1181488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b1ca551abfed14d8354280570d44a8
+      internalID: 1578404586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1382
+        width: 96
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15929522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18dfc63d9136d442a988b3681d1cfe5
+      internalID: -1387272255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1379
+        width: 160
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21328685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccaba35ff5d16d448fedd8accd33d72
+      internalID: -1565736467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1226
+        width: 80
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21357457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec31a0e37cf0e44eb03a03fc0b20c8a
+      internalID: -441400410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1249
+        width: 128
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.105666384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460390f7104db344faaab672c33340ae
+      internalID: -1964681702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1264
+        width: 112
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1314198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b531f4bbb2451554a8f2a0ca3cc119e3
+      internalID: 58316437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1102
+        width: 86
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15733705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa05676c63f73547b8b0d41c551af4e
+      internalID: -1760050936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1108
+        width: 112
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24280144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015ea9cdc0d00a0479c4c42a0675f1a3
+      internalID: 2138080671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 952
+        width: 96
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.121142864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919d54525f3314941a93c304fcdd4e24
+      internalID: 758652626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings-country_town_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 957
+        width: 96
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14225973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e800e2f6bc12f04abf1aaf9036e0181
+      internalID: 302288924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buildings-country_town_0: 641547796
+      buildings-country_town_1: -58266361
+      buildings-country_town_10: -1235136300
+      buildings-country_town_11: -500816285
+      buildings-country_town_12: -1882319490
+      buildings-country_town_13: 1578404586
+      buildings-country_town_14: -1387272255
+      buildings-country_town_15: -1565736467
+      buildings-country_town_16: -441400410
+      buildings-country_town_17: -1964681702
+      buildings-country_town_18: 58316437
+      buildings-country_town_19: -1760050936
+      buildings-country_town_2: -1799154371
+      buildings-country_town_20: 2138080671
+      buildings-country_town_21: 758652626
+      buildings-country_town_22: 302288924
+      buildings-country_town_3: -1518736849
+      buildings-country_town_4: -1390862204
+      buildings-country_town_5: 1609303615
+      buildings-country_town_6: 1106879874
+      buildings-country_town_7: -1098978565
+      buildings-country_town_8: 1381557147
+      buildings-country_town_9: -1472994706
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

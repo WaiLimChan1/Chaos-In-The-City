@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &341565574117734685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5087443960698718514}
+  - component: {fileID: 222318496623498960}
+  m_Layer: 0
+  m_Name: Network Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5087443960698718514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341565574117734685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5098873026243514526}
+  - {fileID: 8838587145465688488}
+  - {fileID: 2594279056206075315}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222318496623498960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341565574117734685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 264449
+  NetworkGuid:
+    RawGuidValue: 0e814582440834a4a90008af45cedc25
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 7964881625789621403}
+  - {fileID: 9129038105483247884}
+  - {fileID: 2115184915487561845}
+  SimulationBehaviours: []
+--- !u!1 &1802080479120776070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8838587145465688488}
+  - component: {fileID: 9129038105483247884}
+  m_Layer: 0
+  m_Name: Networked Spawner Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8838587145465688488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802080479120776070}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5087443960698718514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9129038105483247884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802080479120776070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca55b8c324bbf847933b59878b1fabf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  _playerSurvivorPrefab:
+    RawGuidValue: 55532e050f0b91f4b8ac3857daeea3b8
+  _hostileSurvivorPrefab:
+    RawGuidValue: 3eff9da6223ccce41ba6a8913b29627d
+  _zombiePrefab:
+    RawGuidValue: 0757af4d963354c4198f42e62b507ea7
+  _gunPrefabs:
+  - RawGuidValue: 102e00e4102fb214bb69ada42530176a
+  - RawGuidValue: 933f109abfde2fb4b916e24782a4b581
+  - RawGuidValue: 2983926042140f845987cf6b7ca6f485
+  - RawGuidValue: d6cec754366dcc446a3a49aee5f5b389
+  - RawGuidValue: f58e26c83ddf0094689b334536f07c2d
+  - RawGuidValue: 4080d01f328bcb9458556c99f63e7253
+  - RawGuidValue: ed5fc2fb8cbdf544c864ab342e13573a
+  - RawGuidValue: cd0bd730be7d4d64c8eb2db13486783e
+  - RawGuidValue: ade8426c933b3f843851b9f1f81dbfa5
+  - RawGuidValue: 9da2663b76ff32044a39db68dbf53860
+  _meleePrefabs:
+  - RawGuidValue: d9d9764881908054b8766040d8b9d1af
+  - RawGuidValue: e0f1ba9828b9d3e45833ddb5ccf22916
+  - RawGuidValue: fbfb4bedb49db164288fd3f2787a57cc
+  - RawGuidValue: 3ea093696b810174f818f724616b1894
+  - RawGuidValue: c38d5a011ee612b429545f7ab1315a06
+  - RawGuidValue: 4abf18c50dc87c64c848d119a68337da
+  _throwablePrefabs:
+  - RawGuidValue: c2a4ad38b6b3b92438f66ec4429719dd
+  - RawGuidValue: c2a4ad38b6b3b92438f66ec4429719dd
+  - RawGuidValue: c2a4ad38b6b3b92438f66ec4429719dd
+  - RawGuidValue: c2a4ad38b6b3b92438f66ec4429719dd
+  _bulletPrefab:
+    RawGuidValue: 1dc90e37813883e46a3c817886516923
+  _explosivePrefab:
+    RawGuidValue: 874c8a4cab5eab941a2ff2a2d33a9b02
+  _vehiclePrefabs:
+  - RawGuidValue: 46a6baf6c4d216b41b25a741bf8ad1b6
+  - RawGuidValue: f0856704b59bff04aa1e788f81d7e4b9
+  - RawGuidValue: 11cde69f6bfadc44995e5075eae703c3
+--- !u!1 &4461343642821414961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5098873026243514526}
+  - component: {fileID: 7964881625789621403}
+  m_Layer: 0
+  m_Name: Networked Player Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5098873026243514526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461343642821414961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5087443960698718514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7964881625789621403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461343642821414961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8054326cc7efef04185e6eafb6e7806a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  _networkedPlayerPrefab:
+    RawGuidValue: c6f8fea762645b948a6fdf1f712efb8d
+--- !u!1 &8707847622526870481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2594279056206075315}
+  - component: {fileID: 2115184915487561845}
+  m_Layer: 0
+  m_Name: Game Director Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2594279056206075315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707847622526870481}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5087443960698718514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115184915487561845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707847622526870481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3bb541a2bd094e498c90f124b359b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  PLAY_ZONE: 35
+  SPAWN_ZONE: 50
+  DESTROY_ZONE: 55

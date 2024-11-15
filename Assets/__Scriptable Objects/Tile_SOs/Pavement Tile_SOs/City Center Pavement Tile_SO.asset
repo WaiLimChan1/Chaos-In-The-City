@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c99d760dd94e145b49abe8e8e57e1f, type: 3}
+  m_Name: City Center Pavement Tile_SO
+  m_EditorClassIdentifier: 
+  tileSprite: {fileID: 625015969, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+  tileMapTile: {fileID: 11400000, guid: 2975f5ecc61f78a4b8e575fa096f1579, type: 2}
+  tileSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  tileType: 5
+  pavementSprites:
+  - TileSprite: {fileID: -535270163, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 1
+    SouthEnd: 1
+    WestEnd: 1
+  - TileSprite: {fileID: -447637840, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 0
+    SouthEnd: 0
+    WestEnd: 0
+  - TileSprite: {fileID: 910513436, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 1
+    SouthEnd: 0
+    WestEnd: 0
+  - TileSprite: {fileID: -1863035729, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 0
+    SouthEnd: 1
+    WestEnd: 0
+  - TileSprite: {fileID: -1302901739, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 0
+    SouthEnd: 0
+    WestEnd: 1
+  - TileSprite: {fileID: 807324319, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 1
+    SouthEnd: 0
+    WestEnd: 0
+  - TileSprite: {fileID: 882536184, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 1
+    SouthEnd: 1
+    WestEnd: 0
+  - TileSprite: {fileID: 1350542259, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 0
+    SouthEnd: 1
+    WestEnd: 1
+  - TileSprite: {fileID: 1348744562, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 0
+    SouthEnd: 0
+    WestEnd: 1
+  - TileSprite: {fileID: -1799178319, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 0
+    SouthEnd: 1
+    WestEnd: 0
+  - TileSprite: {fileID: 1663626567, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 1
+    SouthEnd: 0
+    WestEnd: 1
+  - TileSprite: {fileID: 1743858263, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 1
+    SouthEnd: 1
+    WestEnd: 1
+  - TileSprite: {fileID: 1974062128, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 0
+    SouthEnd: 1
+    WestEnd: 1
+  - TileSprite: {fileID: -702142149, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 1
+    SouthEnd: 0
+    WestEnd: 1
+  - TileSprite: {fileID: 661644728, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 1
+    EastEnd: 1
+    SouthEnd: 1
+    WestEnd: 0
+  - TileSprite: {fileID: 625015969, guid: ee7140bfc254f3d42b1722ad687cec14, type: 3}
+    NorthEnd: 0
+    EastEnd: 0
+    SouthEnd: 0
+    WestEnd: 0
+  buildingSpawnInfos:
+  - BuildingPrefab: {fileID: 1323092750466597993, guid: 2d3fe0d677dd97340a0c4ad29c329f20, type: 3}
+    spawnChanceWeight: 1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Throwable Projectile
+  - Gun
+  - Melee
+  - Throwable
+  - Survivor
+  - Zombie
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Character
+  - Character Hitbox
+  - Character Full Hitbox
+  - Bullet
+  - Throwable Projectile
+  - Item
+  - Weapon
+  - Vehicle
+  - Tile
+  - Map
+  - Structure
+  - Structure Finder
+  - Building Interior
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Survivor Marker
+  - Zombie Marker
+  - 
+  - 
+  m_SortingLayers:
+  - name: Tile
+    uniqueID: 4242980361
+    locked: 0
+  - name: Map
+    uniqueID: 1633207193
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Skid Marks
+    uniqueID: 4071554731
+    locked: 0
+  - name: Building
+    uniqueID: 1569520565
+    locked: 0
+  - name: Item
+    uniqueID: 1653149313
+    locked: 0
+  - name: Smoke Particle
+    uniqueID: 3395336679
+    locked: 0
+  - name: Game Play
+    uniqueID: 2555251741
+    locked: 0
+  - name: Vehicle
+    uniqueID: 3350903943
+    locked: 0
+  - name: Projectile
+    uniqueID: 72324755
+    locked: 0
+  - name: Bullet Casing
+    uniqueID: 2701969769
+    locked: 0
+  - name: Visual Effect
+    uniqueID: 334795005
+    locked: 0
+  - name: UI
+    uniqueID: 513485649
+    locked: 0
